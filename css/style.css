@@ -1,0 +1,488 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+
+header, main, footer, nav, aside, section, div  {
+
+    display: block;
+
+}
+
+
+body {
+
+    background-color: #FFFFFF;
+
+}
+header{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+a {
+    display: block;
+    color: #656565;
+    text-decoration: none;
+
+}
+
+#logo{
+    background-image: url(../images/Group\ 27.png);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 40px;
+    top: 41px;
+}
+#logo span {
+
+    position: absolute;
+    width: 154px;
+    height: 33px;
+    left: 40px;
+    top: 0px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    letter-spacing: 0.25em;
+
+    color: #3E3F43;
+
+}
+.cover {
+position: absolute;
+width: 1200px;
+height: 555px;
+left: 0px;
+top: 123px;
+
+background: #F9BDBD;
+}
+
+.cover h1
+{
+    position: absolute;
+width: 448px;
+height: 98px;
+left: 506px;
+top: 206px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 49px;
+
+color: #3E3F43;
+
+}
+
+.Rectangle{
+position: absolute;
+width: 278px;
+height: 388px;
+left: 40px;
+top: 83px;
+border-top-right-radius: 75px;
+border-bottom-left-radius: 75px;
+background: #F7DEA6;
+}
+
+.me
+{
+    position: absolute;
+width: 388px;
+height: 306px;
+left: 78px;
+top: 165px;
+
+background: url(Kalmar-Home-7-pc-Acacia-Wood-Salad-Bowl-Set.png);
+}
+.h1_sub
+{
+    position: absolute;
+width: 448px;
+height: 66px;
+left: 506px;
+top: 320px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+
+color: #000000;
+}
+.about
+{
+    position: absolute;
+width: 741px;
+height: 458px;
+left: 40px;
+top: 702px;
+}
+.about h1
+{
+position: absolute;
+width: 448px;
+height: 66px;
+left: 506px;
+top: 320px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+
+color: #000000;
+}
+.about about_me
+{
+    position: absolute;
+left: 3.33%;
+right: 34.92%;
+top: 25.53%;
+bottom: 61.33%;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140.62%;
+/* or 28px */
+
+text-align: justify;
+
+color: #000000;
+
+}
+.Exercises
+{
+    position: absolute;
+    width: 1096px;
+    height: 328px;
+    left: 40px;
+    top: 900px;
+}
+
+.Exercises h2
+{
+
+position: absolute;
+width: 140px;
+height: 40px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 40px;
+/* identical to box height, or 133% */
+
+
+color: #000000;
+}
+
+.card
+{
+    position: absolute;
+width: 200px;
+height: 264px;
+top: 64px;
+
+background: #FDEDE5;
+border-radius: 30px;
+}
+
+.card2
+{
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 224px;
+    top: 64px;
+    
+    background: #EBF1FF;
+    border-radius: 30px;
+}
+
+.card3
+{
+    position: absolute;
+width: 200px;
+height: 264px;
+left: 448px;
+top: 64px;
+
+
+background: #EBFFEC;
+border-radius: 30px;
+}
+
+.card4
+{
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 692px;;
+    top: 64px;
+    
+    background: #FFEBFC;
+    border-radius: 30px;
+}
+
+.card5
+{
+    position: absolute;
+width: 200px;
+height: 264px;
+left: 916px;
+top: 64px;
+
+background: #FFFEEB;
+border-radius: 30px;
+}
+
+.person
+{
+position: absolute;
+width: 80px;
+height: 80px;
+left: calc(50% - 80px/2 - 36px);
+top: 24px;
+}
+.person img{
+    box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 1px solid #D7DFE9;
+border-radius: 100px;
+}
+.Exercise_text
+{
+    position: absolute;
+width: 77px;
+height: 24px;
+left: calc(50% - 77px/2 - 37.5px);
+top: 128px;
+
+/* Product - H5 ∙ 16|24 / Medium */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: center;
+
+color: #000000;
+}
+
+.view{
+    position: absolute;
+    height: 40px;
+    left: 12%;
+    right: 28.21%;
+    bottom: 40px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.Exercises:hover
+{
+    background: #000000;
+
+}
+
+.view span
+{
+   
+position: absolute;
+
+height: 24px;
+left: 16.84px;
+right: 14.74px;
+top: 8px;
+
+/* Product - Paragraph ∙ 14|24 / Medium */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+
+
+color: #171F46;
+}
+
+.programLan
+{
+    position: absolute;
+    width: 364px;
+    height: 205px;
+    left: 40px;
+    top: 1250px;
+}
+
+.programLan span
+{
+    position: absolute;
+width: 364px;
+height: 40px;
+
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 40px;
+/* identical to box height, or 133% */
+
+
+color: #000000;
+}
+
+.programLan ul
+{
+    position: absolute;
+left: 3.33%;
+right: 66.33%;
+top: 60px;
+bottom: 39.47%;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140.62%;
+/* or 28px */
+
+text-align: justify;
+
+color: #000000;
+}
+
+.yourchoice
+{
+    position: absolute;
+    width: 1120px;
+    height: 572px;
+    left: 40px;
+    top: 756px;
+    
+
+}
+.yourchoice h2
+{
+    position: absolute;
+    width: 169px;
+    height: 40px;
+
+    top: 756px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height, or 133% */
+    
+    
+    color: #000000;
+
+}
+.choice_bg
+{
+    position: absolute;
+    width: 1120px;
+    height: 508px;
+
+    top: 820px;
+    
+    background: #F9BDBD;
+}
+
+.choice_bg iframe
+{
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+footer {
+
+  
+
+    margin-top: 2250px;
+   
+margin-left: 40px;
+}
+
+
+
+
+.footer_class  span {
+ 
+    font-family:'Nunito';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    
+    color: #8D8D8D;
+
+}
+
+
+
+
+.footer_class h2{
+
+    color: #333333;
+    width: 100px;
+    height: 25px;
+  
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.footer_class a{
+
+    font-family:'Nunito';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+ 
+}
