@@ -1,14 +1,8 @@
-
-
 function init()
 {
-   console.log("'bahaa sobh'");
-  
    createdivsGame(7);
-   createdivsHeader();
-   
+   createdivsHeader();   
 }
-
 function createdivsGame( size )
 {
     const gameLetters =["A","B","C"]
@@ -29,8 +23,6 @@ function createdivsGame( size )
     div.style.display = "flex";
     div.style.alignItems = "center";
     div.style.justifyContent = "center";
-
-
     let letter=document.createElement("a");
     var randomNumber = Math.floor(Math.random()*gameLetters.length);
     letter.innerHTML = gameLetters[randomNumber];
@@ -41,7 +33,6 @@ function createdivsGame( size )
     letter.style.color = "black";
     letter.style.alignItems = "center";
     div.appendChild(letter);
-
     div.onclick =function()
     {
          remember(letter.id,div.id);
@@ -49,7 +40,6 @@ function createdivsGame( size )
     theGamediv.appendChild(div);
    for(i=1;i<size;i++)
    {
-    
     let div=document.createElement("div");
     div.id = "div_"+i;
     div.style.display = "flex";
@@ -63,7 +53,6 @@ function createdivsGame( size )
     }else{
         div.style.marginLeft = margenLeft+68 + "px";  
     }
-
     div.style.marginTop = margenTop +"px";
     div.style.backgroundColor = "black";
     let letter=document.createElement("a");
@@ -84,16 +73,13 @@ function createdivsGame( size )
 
    }
 }
-
 function createdivsHeader()
 {
     const header = document.getElementById("header_layout3");
-
    let width = 80;
    let height =80;
    let margenTop =21;
    let margenLeft = 1336; 
-  
     let div=document.createElement("div");
     div.id = "more";
     div.style.width = width + "px";
@@ -102,21 +88,15 @@ function createdivsHeader()
       div.style.marginTop = margenTop +"px";
      div.style.backgroundColor = "black";
     header.appendChild(div);
-
     document.getElementById("more").onclick = function()
 {
-    console.log("baahaa");
     createdivsGame(3);
 }
-
 }
-
-
 var firstLetterId = null;
 var firstDevId = null;
 var clear = false;
 var secLetterId=null;
-
 function remember(letterID,divID)
 {
 if(clear)
@@ -127,7 +107,7 @@ let div =document.getElementById(divID);
 let letter = document.getElementById(letterID);
 if(div.style.backgroundColor == "black")
 {
-    console.log("black section clicked");
+   
     letter.style.color = "white";
     if(firstLetterId == null)
     {
@@ -137,8 +117,7 @@ if(div.style.backgroundColor == "black")
           return;
     }else
     {
-        console.log("first letter is not null = "+document.getElementById(firstLetterId).innerHTML);
-        console.log("second letter is = "+letter.innerHTML);
+      
         if(letter.innerHTML==document.getElementById(firstLetterId).innerHTML)
         {
             div.style.backgroundColor = "red";
@@ -148,13 +127,8 @@ if(div.style.backgroundColor == "black")
             firstLetterId = null;
             firstDevId = null;
             return;
-           
         }
         else{
-            
-            console.log("first and second is deffirnts");
-            console.log("first letter is = "+document.getElementById(firstLetterId).innerHTML);
-            console.log("second letter is = "+letter.innerHTML);
             letter.style.color = "white";
            secLetterId = letter;
             document.getElementById(firstLetterId).style.color = "black";
@@ -163,17 +137,6 @@ if(div.style.backgroundColor == "black")
             firstDevId = null;
             return;
         }
-        
     }
-   
 }
-
-
 }
-function wait(ms){
-    var start = new Date().getTime();
-    var end = start;
-    while(end < start + ms) {
-      end = new Date().getTime();
-   }
- }
