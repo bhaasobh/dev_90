@@ -474,14 +474,7 @@ top: 246px;
     
     background: #EBEF18;
 }
-.first
-{
-    position: relative;
-    width: 80px;
-    height: 80px;
-    margin: 123px 820px 729px 64px; 
-    background: linear-gradient(0deg, #000000, #000000), #000000;
-}
+
 
 #theGame
 {
@@ -498,4 +491,84 @@ width: 1440px;
 height: 41px;
 top: 1582px;
 background: #000000;
+}
+@media (max-width:1420px) {
+    #layout3
+{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+}
+    #layout3 > header
+    {
+    width: 850px;
+    height: 123px;
+    position:relative;
+    background: #F2E9E9;
+    }
+    #wrapper_layout3
+{
+  
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    width: 850px;
+
+}
+#layout3_main>section:first-child
+{
+  
+    width: 850px;
+    height: 105px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E5E5E5;
+}
+
+#layout3_main>section:first-child >nav
+{
+    position: absolute;
+    width: 198px;
+    height: 33px;
+    left: 302px;
+    top: 45px;
+    
+}
+
+#layout3_main>section:nth-child(2)
+{
+    display: none;
+}
+
+#theGame
+{
+
+  
+    height: 995px;
+    width: 850px;
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#layout3_main>section:nth-child(3)
+{
+    position: absolute;
+    width: 850px;
+    height: 463px;
+    left: 0px;
+    top: 995px;
+    
+    background: #EBEF18;
+}
+
+#layout3 > footer{
+    position: absolute;
+width: 850px;
+height: 41px;
+top: 1582px;
+background: #000000;
+}
 }

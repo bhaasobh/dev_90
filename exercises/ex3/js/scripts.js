@@ -9,6 +9,9 @@ function createdivsGame( size )
     const theGamediv = document.getElementById("theGame");
     theGamediv.style.display = "flex";
     theGamediv.style.flexWrap = "wrap";
+    theGamediv.style.justifyContent = "self-start";
+    theGamediv.style.alignContent = "self-start";
+    theGamediv.style.alignItems = "self-start";
    let width = 80;
    let height =80;
    let margenTop =123;
@@ -76,15 +79,17 @@ function createdivsGame( size )
 function createdivsHeader()
 {
     const header = document.getElementById("header_layout3");
+    header.style.display = "flex";
+    header.style.justifyContent = "flex-end";
    let width = 80;
    let height =80;
    let margenTop =21;
-   let margenLeft = 1336; 
+   let margenRight = 21; 
     let div=document.createElement("div");
     div.id = "more";
     div.style.width = width + "px";
       div.style.height = height + "px";
-     div.style.marginLeft = margenLeft + "px";
+     div.style.marginRight = margenRight + "px";
       div.style.marginTop = margenTop +"px";
      div.style.backgroundColor = "black";
     header.appendChild(div);
