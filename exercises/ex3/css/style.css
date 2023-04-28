@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
-
 header, main, footer, nav, aside, section, div  {
 
     display: block;
@@ -14,7 +12,6 @@ a {
     text-decoration: none;
 
 }
-
 header
 {
  position: relative;
@@ -25,48 +22,33 @@ header
     justify-content: center;
     align-items: center;
 }
-
 header > section
 {
     position:relative;
-
 margin:52px 667px 38px 575px ;
 }
-
  nav{
-  
 position:absolute;
-
-
 }
-
 nav ul
 {
      
  display: flex;
     flex-direction: row;
-
     gap: 18px;
-    
     list-style: none; 
 font-family: 'Amiko';
 font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 32px;
-
 color: #000000;
-
 }
-
  li:hover 
 {
     color: #ef1818;
     background-color: rgb(0, 255, 136);
-    font-size: 40px;
-   
 }
-
 nav#index_nav> ul > li:first-child::after
 {
     content: "";
@@ -100,8 +82,6 @@ nav#layout3_nav> ul > li:nth-child(3)::after
             height: 14px;
             width: 14px;
 }
-
-
 li:first-child:hover #red_dot_mix
 {
     position: absolute;
@@ -111,10 +91,6 @@ border-radius: 100%;
     height: 30px;
     width: 30px;
 }
-
-
-
-
 li:first-child:hover div#red_dot
 {
     position: absolute;
@@ -154,10 +130,7 @@ main#index_main
     display: flex;
 width: 881px;
 height: 624px;
-
 top: 214px;
-
-
 }
 
 main#index_main > section:first-child
@@ -167,42 +140,30 @@ main#index_main > section:first-child
     right: 50%;
     top: 28.21%;
     bottom: 52.56%;
-
-   
 }
 main#index_main > section:last-child
 {
-    
     position: absolute;
     left: 50%;
     right: 0%;
     top: 0%;
     bottom: 0%;
-   
 }    
-
-
-
 main#index_main > section:first-child > h1
 {
     position: absolute;
-
     bottom: 19.17%;
-    
     font-family: 'Amiko';
     font-style: normal;
     font-weight: 700;
     font-size: 72px;
     line-height: 96px;
-    
     color: #000000;
     
 }
 main#index_main  > section:first-child >p 
 {
-    position: absolute;
-
-
+position: absolute;
 top: 72.5%;
 bottom: 0%;
 width: 374px;
@@ -211,7 +172,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 24px;
 line-height: 32px;
-
 color: #000000;
 }
 main#index_main > section:last-child > div
@@ -224,127 +184,90 @@ main#index_main > section:last-child > div:first-child
     height: 23px;
     width: 75px;
     margin: 44px 0px 0px 0px;
-
 }
 main#index_main > section:last-child > div:nth-child(2)
 {
       height: 46px;
       width: 136px;
       margin:75px 301px 503px 0px;
-
 }
 main#index_main  > section:last-child > div:nth-child(3)
 {
-   
     height: 404px;
     width: 134px;
     margin:132px 303px 88px 0px;
-
 }
 main#index_main  > section:last-child > div:nth-child(4)
-{
-    
+{  
      height: 28px;
     width: 88px;
     margin:547px 349px 49px 0px;
-
-
 }
 main#index_main  > section:last-child > div:nth-child(5)
 {
- 
     height: 26px;
     width: 25px;
     margin:582px 412px 16px 0px;
-
-
 }
 main#index_main> section:last-child > div:nth-child(6)
 {
- 
     height: 26px;
     width: 25px;
     margin:582px 380px 16px 32px;
-
-    
-    
 }
 main#index_main > section:last-child > div:nth-child(7)
 {
-   
     height: 352px;
     width: 246px;
     margin:44px 42px 228px 149px;
-    
-
 }
 main#index_main > section:last-child > div:nth-child(8)
 {
-  
     width:  123px;
     height: 212px;
     margin:412px 165px 0px 149px;
-
 }
 main#index_main > section:last-child > div:nth-child(9)
 {
-   
     height: 105px;
     width: 55px;
     margin:412px 96px 107px 286px;
-
 }
 main#index_main > section:last-child > div:nth-child(10)
 {
-   
     height: 58px;
     width: 110px;
     margin:524px 41px 42px 286px;
-
-
 }
 main#index_main > section:last-child > div:nth-child(11)
 {
-  
     height: 105px;
     width: 55px;
     margin:412px 0px 107px 382px;
-
-
 }
 main#index_main > section:last-child > div:nth-child(12)
-{
-   
+{  
     height: 55px;
     width: 28px;
     margin: 0px 0px 569px 409px;
-
-
 }
 main#index_main > section:last-child > div:nth-child(13)
 {
-   
     height: 55px;
     width: 28px;
     margin: 66px 0px 503px 409px;
-
 }
 main#index_main > section:last-child > div:nth-child(14)
 {
-    
     height: 55px;
     width: 28px;
     margin:132px 30px 437px 409px;
-
 }
 main#index_main > section:last-child > div:nth-child(15)
 {
-    
     height:198px;
     width: 28px;
     margin:198px 0px 228px 409px;
-    
-
 }
 body#index >#wrapper > footer
 {
@@ -353,9 +276,7 @@ width: 100%;
 height: 41px;
 left: 0px;
 top: 983px;
-
 background: #000000;
-
 }
 
 
@@ -370,8 +291,6 @@ main#layout2_main
 main#layout2_main  > section:first-child
 {
     position: relative;
- 
-    
     width: 969px;
     height: 467px;
     top: 119px;
@@ -386,7 +305,6 @@ main#layout2_main > section:first-child > div:nth-child(odd)
     width: 457px;
     margin-right: 663px;
     background: #C4C4C4;
-
 }
 main#layout2_main > section:first-child > div:nth-child(even)
 {
@@ -395,9 +313,7 @@ main#layout2_main > section:first-child > div:nth-child(even)
     width: 457px;
     margin-left: 512px;
     margin-top:169px ;
-
 background: #C4C4C4;
-
 }
 main#layout2_main > section:first-child > div:nth-child(3)
 {
@@ -431,9 +347,6 @@ main#layout2_main > section:first-child > div:nth-child(10)
 {
     margin-top:1644px ;
 }
-
-
-
 main#layout2_main  > section:last-child
 {
     
@@ -444,7 +357,6 @@ main#layout2_main  > section:last-child
 
     background-color: #EBEF18;
 }  
-
 main#layout2_main  > section:last-child >div:first-child
 {
     
@@ -454,7 +366,6 @@ main#layout2_main  > section:last-child >div:first-child
     margin-top: 119px;
     background: linear-gradient(0deg, #000000, #000000), #000000;
 }  
-
 main#layout2_main  > section:last-child >div:nth-child(2)
 {
     position: absolute;
@@ -465,7 +376,6 @@ margin-top: 247px;
 
 background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #000000;
 }  
-
 main#layout2_main  > section:last-child >div:nth-child(3)
 {
     
@@ -475,7 +385,6 @@ main#layout2_main  > section:last-child >div:nth-child(3)
     margin-top: 739px;
     background-color: #000000;
 }  
-
 main#layout2_main  > section:last-child >aside
 {
     display: flex;
@@ -485,7 +394,6 @@ width: 81px;
 height: 641px;
 margin-left: 44px;
 margin-top: 1296px;
-
 font-family: 'Amiko';
 font-style: normal;
 font-weight: 400;
@@ -494,7 +402,6 @@ line-height: 128px;
 display: flex;
 align-items: flex-end;
 text-align: center;
-
 color: #000000;
 } 
 body#layout2 > footer
@@ -504,103 +411,91 @@ width: 100%;
 height: 41px;
 left: 0px;
 top: 983px;
-
 background: #000000;
-
 }
 
-
-body#layout3 >header>section
+#layout3
 {
-    position: absolute;
-width: 80px;
-height: 80px;
-margin: 21px 24px 22px 95.5%;
-background: linear-gradient(0deg, #000000, #000000), #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#layout3 > header
+{
+
+width: 1440px;
+height: 123px;
+position:relative;
+background: #F2E9E9;
 }
 
 #wrapper_layout3
 {
-   
-}
-
-main#layout3_main 
-{
-     position: relative;
   
     display: flex;
-    
-    justify-content: space-between;
-   
-}
-
-main#layout3_main > section:first-child
-{
-width: 372px;
-height: 995px;
-
-background: #E5E5E5;
-}
-main#layout3_main > section:nth-child(2)
-{
-
-
-position: relative;
+    justify-content:space-between;
+    flex-direction: row;
+    position:relative;
+    width: 1440px;
 
 }
-main#layout3_main > section:nth-child(2)>div:first-child
-{
-
-    width: 80px;
-    height: 80px;
- 
- margin: 123px 820px 792px 64px;
-    background: linear-gradient(0deg, #000000, #000000), #000000;
-}
-main#layout3_main > section:nth-child(2)>div:nth-child(2)
-{
-
-    width: 100px;
-    height: 100px;
- margin: 123px 820px 792px 64px;
-    background: linear-gradient(0deg, #000000, #000000), #000000;
-}
-main#layout3_main >section:nth-child(3)
-{
-    width: 104px;
-height: 995px;
-
-
-background: rgba(24, 71, 239, 0.3);
-}
-
-
-
-#layout3_nav
-{
-    position: relative;
-    margin-top: 123px;
-}
-
-body#layout3 > footer > section:first-child
+#layout3_main>section:first-child
 {
     position: absolute;
-width: 100%;
-height: 463px;
-left: 0px;
-top: 1118px;
-
-background: #EBEF18;
+    width: 372px;
+    height: 995px;
+    left: 0px;
+    background: #E5E5E5;
+}
+#layout3_main>section:first-child >nav
+{
+    position: absolute;
+width: 198px;
+height: 33px;
+left: 38px;
+top: 246px;
+}
+#layout3_main>section:nth-child(2)
+{
+    position: absolute;
+    width: 104px;
+    height: 995px;
+    left: 1336px;
+    
+    background: rgba(24, 71, 239, 0.3);
+}
+#layout3_main>section:nth-child(3)
+{
+    position: absolute;
+    width: 1440px;
+    height: 463px;
+    left: 0px;
+    top: 995px;
+    
+    background: #EBEF18;
+}
+.first
+{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 123px 820px 729px 64px; 
+    background: linear-gradient(0deg, #000000, #000000), #000000;
 }
 
-body#layout3 > footer>section:last-child
+#theGame
 {
+
   
-position: absolute;
-width: 100%;
+    height: 995px;
+    margin-left: 372px;
+    width: 964px;
+}
+
+#layout3 > footer{
+    position: absolute;
+width: 1440px;
 height: 41px;
 top: 1582px;
-
 background: #000000;
-
 }
