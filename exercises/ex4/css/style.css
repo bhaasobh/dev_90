@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, aside, section, div  {
+    display: block;
+}
+body
+{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    
+}
+#mainForm {
+    display: flex;
+    width: 650px;
+ background-image: url('https://img.freepik.com/free-photo/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds_181624-11068.jpg?w=1380&t=st=1683837950~exp=1683838550~hmac=7f6652f6701aafdf04ece0bc350ef1ddceaec2c8008ae2ecf1e3d4ec230e1eb3');
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+ 
+}
+#exampleInputPassword1
+{
+    width: 200px;
+}
+.form-control
+{
+    width: 200px;
+}
+.form-select
+{
+    width: 200px;
+}
