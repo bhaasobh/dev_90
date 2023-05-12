@@ -9,14 +9,14 @@
     </head>
     <body>
         <form action="http://se.shenkar.ac.il/teach/web1/get_form3.php" method="get" autocomplete="on" id="mainForm" class="form-group">
-          <h1>Join Our Member Club</h1>
-     <br>
+        <h1>Join Our Member Club</h1>
+        <br>
         <label for="fullName">Full name
         <input type="text" name="fullName"  class="form-control" id="fullName" aria-describedby="fullName" placeholder="Enter your First and Last name "></label>
           <br>
             <label for="exampleInputPassword1">Password
             <input type="password" class="form-control" id="exampleInputPassword1" name="pass" placeholder="Password"></label>
-          <br>
+            <br>
             <label for="exampleInputEmail1">Email address
             <input type="email" class="form-control" name="mail" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"></label>
             <br>
@@ -25,18 +25,15 @@
             <label> website : <input type=”url” name="website"  class="form-control"  autocomplete="on" > </label>
             <br>
             <label> coffe cups per days <input type="number"  class="form-control" name="coffee" min="0" > </label>
-            <br>
-            <label>
-                Temperture : <input type="range"  min="0"  max="100" name="temper"  value="25"  id="tempRange"> <span id="tempValue"></span>
-              </label>
+            <br> <label>Temperture : <input type="range"  min="0"  max="100" name="temper"  value="25"  id="tempRange"> <span id="tempValue"></span></label>
             <br>
             <label>Address <textarea  rows="3"  class="form-control" cols="20" name="address"></textarea></label>
             <br>
             <label>your favorite language: </h3><br>
-                <input type="checkbox" class="form-check-input"  name="interests[]"  value="C/C++"> C/C++  <br>
-               <input type="checkbox" class="form-check-input"  name="interests[]" value="python"> python <br>
+              <input type="checkbox" class="form-check-input"  name="interests[]"  value="C/C++"> C/C++  <br>
+              <input type="checkbox" class="form-check-input"  name="interests[]" value="python"> python <br>
               <input type="checkbox" name="interests[]" class="form-check-input"  value="java"> java 
-                <br>
+              <br>
               </label>
             <br>
             <label>gender :  </label>
@@ -44,14 +41,11 @@
             <label>female<input type="radio" class="form-check-input"  name="gender" value="female"></label>
             <label>unknown<input type="radio" class="form-check-input"  name="gender" value="unknown"></label>
             <br>
-               <label>Age
-             <select class="form-select" aria-label="Default select example" name="age" id="ageSelect"></select>
-          </label>
+            <label>Age<select class="form-select" aria-label="Default select example" name="age" id="ageSelect"></select></label>
             <br>
             <input type="submit" class="btn btn-primary" value="send form" id="submitBtn">
             <br>
             <a type="button" class="btn btn-primary" href="edit.html" >product editor</a>
         </form>
-        
     </body>
 </html>

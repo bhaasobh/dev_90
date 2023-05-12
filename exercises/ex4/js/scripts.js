@@ -24,6 +24,5 @@ $(document).ready(function () {
     option.textContent = i;
     ageSelect.appendChild(option); 
     }
-    
 
 });
